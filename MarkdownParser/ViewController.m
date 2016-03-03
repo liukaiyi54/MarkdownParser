@@ -29,7 +29,7 @@
 *   Michael.\n\
 *   Rachel.\n\n\
 ![a](https://pic3.zhimg.com/cb22eb43e4f4530abddc4410a16870fe_l.jpg)\n\n\
-[**myzhihu**](https://www.zhihu.com/people/liukaiyi54)\n\
+[**我的知乎主页**](https://www.zhihu.com/people/liukaiyi54)\n\
     ";
 
     [self.parserButton addTarget:self action:@selector(didTapParserButton:) forControlEvents:UIControlEventTouchUpInside];
