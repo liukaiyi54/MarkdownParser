@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0E8B2F1C87D56500CC89E3 /* libMMMarkdown-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0E8B2E1C87D56500CC89E3 /* libMMMarkdown-iOS.a */; };
 		4F13AA7C1C86EBC800DFFC79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13AA7B1C86EBC800DFFC79 /* main.m */; };
 		4F13AA7F1C86EBC800DFFC79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13AA7E1C86EBC800DFFC79 /* AppDelegate.m */; };
 		4F13AA821C86EBC800DFFC79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13AA811C86EBC800DFFC79 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0E8B2E1C87D56500CC89E3 /* libMMMarkdown-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMMMarkdown-iOS.a"; sourceTree = "<group>"; };
+		4F0E8B301C87D56C00CC89E3 /* MMMarkdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
 		4F13AA771C86EBC800DFFC79 /* MarkdownParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkdownParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F13AA7B1C86EBC800DFFC79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F13AA7D1C86EBC800DFFC79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0E8B2F1C87D56500CC89E3 /* libMMMarkdown-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +70,8 @@
 				4F13AA861C86EBC800DFFC79 /* Assets.xcassets */,
 				4F13AA881C86EBC800DFFC79 /* LaunchScreen.storyboard */,
 				4F13AA8B1C86EBC800DFFC79 /* Info.plist */,
+				4F0E8B2E1C87D56500CC89E3 /* libMMMarkdown-iOS.a */,
+				4F0E8B301C87D56C00CC89E3 /* MMMarkdown.h */,
 				4F13AA7A1C86EBC800DFFC79 /* Supporting Files */,
 			);
 			path = MarkdownParser;
@@ -263,6 +269,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MarkdownParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MarkdownParser",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "----.MarkdownParser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -274,6 +284,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MarkdownParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MarkdownParser",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "----.MarkdownParser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,6 +312,7 @@
 				4F13AA901C86EBC800DFFC79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
