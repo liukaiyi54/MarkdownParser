@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4F0E8B2F1C87D56500CC89E3 /* libMMMarkdown-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0E8B2E1C87D56500CC89E3 /* libMMMarkdown-iOS.a */; };
+		4F0E8B341C87D5D800CC89E3 /* OutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E8B321C87D5D800CC89E3 /* OutputViewController.m */; };
+		4F0E8B351C87D5D800CC89E3 /* OutputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E8B331C87D5D800CC89E3 /* OutputViewController.xib */; };
 		4F13AA7C1C86EBC800DFFC79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13AA7B1C86EBC800DFFC79 /* main.m */; };
 		4F13AA7F1C86EBC800DFFC79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13AA7E1C86EBC800DFFC79 /* AppDelegate.m */; };
 		4F13AA821C86EBC800DFFC79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13AA811C86EBC800DFFC79 /* ViewController.m */; };
@@ -19,6 +21,9 @@
 /* Begin PBXFileReference section */
 		4F0E8B2E1C87D56500CC89E3 /* libMMMarkdown-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMMMarkdown-iOS.a"; sourceTree = "<group>"; };
 		4F0E8B301C87D56C00CC89E3 /* MMMarkdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
+		4F0E8B311C87D5D800CC89E3 /* OutputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputViewController.h; sourceTree = "<group>"; };
+		4F0E8B321C87D5D800CC89E3 /* OutputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputViewController.m; sourceTree = "<group>"; };
+		4F0E8B331C87D5D800CC89E3 /* OutputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutputViewController.xib; sourceTree = "<group>"; };
 		4F13AA771C86EBC800DFFC79 /* MarkdownParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkdownParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F13AA7B1C86EBC800DFFC79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F13AA7D1C86EBC800DFFC79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +71,9 @@
 				4F13AA7E1C86EBC800DFFC79 /* AppDelegate.m */,
 				4F13AA801C86EBC800DFFC79 /* ViewController.h */,
 				4F13AA811C86EBC800DFFC79 /* ViewController.m */,
+				4F0E8B311C87D5D800CC89E3 /* OutputViewController.h */,
+				4F0E8B321C87D5D800CC89E3 /* OutputViewController.m */,
+				4F0E8B331C87D5D800CC89E3 /* OutputViewController.xib */,
 				4F13AA831C86EBC800DFFC79 /* Main.storyboard */,
 				4F13AA861C86EBC800DFFC79 /* Assets.xcassets */,
 				4F13AA881C86EBC800DFFC79 /* LaunchScreen.storyboard */,
@@ -143,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F13AA8A1C86EBC800DFFC79 /* LaunchScreen.storyboard in Resources */,
+				4F0E8B351C87D5D800CC89E3 /* OutputViewController.xib in Resources */,
 				4F13AA871C86EBC800DFFC79 /* Assets.xcassets in Resources */,
 				4F13AA851C86EBC800DFFC79 /* Main.storyboard in Resources */,
 			);
@@ -156,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F13AA821C86EBC800DFFC79 /* ViewController.m in Sources */,
+				4F0E8B341C87D5D800CC89E3 /* OutputViewController.m in Sources */,
 				4F13AA7F1C86EBC800DFFC79 /* AppDelegate.m in Sources */,
 				4F13AA7C1C86EBC800DFFC79 /* main.m in Sources */,
 			);
@@ -267,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MarkdownParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -282,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MarkdownParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
