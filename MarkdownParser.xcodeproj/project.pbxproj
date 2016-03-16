@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F0E8B2F1C87D56500CC89E3 /* libMMMarkdown-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0E8B2E1C87D56500CC89E3 /* libMMMarkdown-iOS.a */; };
 		4F0E8B341C87D5D800CC89E3 /* OutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E8B321C87D5D800CC89E3 /* OutputViewController.m */; };
 		4F0E8B351C87D5D800CC89E3 /* OutputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E8B331C87D5D800CC89E3 /* OutputViewController.xib */; };
 		4F13AA7C1C86EBC800DFFC79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13AA7B1C86EBC800DFFC79 /* main.m */; };
@@ -16,11 +15,70 @@
 		4F13AA851C86EBC800DFFC79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F13AA831C86EBC800DFFC79 /* Main.storyboard */; };
 		4F13AA871C86EBC800DFFC79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F13AA861C86EBC800DFFC79 /* Assets.xcassets */; };
 		4F13AA8A1C86EBC800DFFC79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F13AA881C86EBC800DFFC79 /* LaunchScreen.storyboard */; };
+		4F34723C1C99107000D4AA7B /* MMMarkdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3472331C99102000D4AA7B /* MMMarkdown.framework */; };
+		4F34723D1C99107000D4AA7B /* MMMarkdown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3472331C99102000D4AA7B /* MMMarkdown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4F3472321C99102000D4AA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BED7620F1B37810000687B36;
+			remoteInfo = "MMMarkdown (iOS)";
+		};
+		4F3472341C99102000D4AA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BED761571B374D6700687B36;
+			remoteInfo = "MMMarkdown (OS X)";
+		};
+		4F3472361C99102000D4AA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE23E8F41C0CF3EF0087F587;
+			remoteInfo = "MMMarkdown (tvOS)";
+		};
+		4F3472381C99102000D4AA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE23E9131C0CF77D0087F587;
+			remoteInfo = "MMMarkdown (watchOS)";
+		};
+		4F34723A1C99102000D4AA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BED761611B374D6700687B36;
+			remoteInfo = MMMarkdownTests;
+		};
+		4F34723E1C99107000D4AA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BED7620E1B37810000687B36;
+			remoteInfo = "MMMarkdown (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F3472401C99107000D4AA7B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4F34723D1C99107000D4AA7B /* MMMarkdown.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		4F0E8B2E1C87D56500CC89E3 /* libMMMarkdown-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMMMarkdown-iOS.a"; sourceTree = "<group>"; };
-		4F0E8B301C87D56C00CC89E3 /* MMMarkdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
 		4F0E8B311C87D5D800CC89E3 /* OutputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputViewController.h; sourceTree = "<group>"; };
 		4F0E8B321C87D5D800CC89E3 /* OutputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputViewController.m; sourceTree = "<group>"; };
 		4F0E8B331C87D5D800CC89E3 /* OutputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutputViewController.xib; sourceTree = "<group>"; };
@@ -34,6 +92,7 @@
 		4F13AA861C86EBC800DFFC79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F13AA891C86EBC800DFFC79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F13AA8B1C86EBC800DFFC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MMMarkdown.xcodeproj; path = MMMarkdown/MMMarkdown.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0E8B2F1C87D56500CC89E3 /* libMMMarkdown-iOS.a in Frameworks */,
+				4F34723C1C99107000D4AA7B /* MMMarkdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +110,7 @@
 		4F13AA6E1C86EBC800DFFC79 = {
 			isa = PBXGroup;
 			children = (
+				4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */,
 				4F13AA791C86EBC800DFFC79 /* MarkdownParser */,
 				4F13AA781C86EBC800DFFC79 /* Products */,
 			);
@@ -78,8 +138,6 @@
 				4F13AA861C86EBC800DFFC79 /* Assets.xcassets */,
 				4F13AA881C86EBC800DFFC79 /* LaunchScreen.storyboard */,
 				4F13AA8B1C86EBC800DFFC79 /* Info.plist */,
-				4F0E8B2E1C87D56500CC89E3 /* libMMMarkdown-iOS.a */,
-				4F0E8B301C87D56C00CC89E3 /* MMMarkdown.h */,
 				4F13AA7A1C86EBC800DFFC79 /* Supporting Files */,
 			);
 			path = MarkdownParser;
@@ -93,6 +151,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4F34722B1C99102000D4AA7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F3472331C99102000D4AA7B /* MMMarkdown.framework */,
+				4F3472351C99102000D4AA7B /* MMMarkdown.framework */,
+				4F3472371C99102000D4AA7B /* MMMarkdown.framework */,
+				4F3472391C99102000D4AA7B /* MMMarkdown.framework */,
+				4F34723B1C99102000D4AA7B /* MMMarkdownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,10 +173,12 @@
 				4F13AA731C86EBC800DFFC79 /* Sources */,
 				4F13AA741C86EBC800DFFC79 /* Frameworks */,
 				4F13AA751C86EBC800DFFC79 /* Resources */,
+				4F3472401C99107000D4AA7B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4F34723F1C99107000D4AA7B /* PBXTargetDependency */,
 			);
 			name = MarkdownParser;
 			productName = MarkdownParser;
@@ -138,12 +210,56 @@
 			mainGroup = 4F13AA6E1C86EBC800DFFC79;
 			productRefGroup = 4F13AA781C86EBC800DFFC79 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4F34722B1C99102000D4AA7B /* Products */;
+					ProjectRef = 4F34722A1C99102000D4AA7B /* MMMarkdown.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4F13AA761C86EBC800DFFC79 /* MarkdownParser */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4F3472331C99102000D4AA7B /* MMMarkdown.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MMMarkdown.framework;
+			remoteRef = 4F3472321C99102000D4AA7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F3472351C99102000D4AA7B /* MMMarkdown.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MMMarkdown.framework;
+			remoteRef = 4F3472341C99102000D4AA7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F3472371C99102000D4AA7B /* MMMarkdown.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MMMarkdown.framework;
+			remoteRef = 4F3472361C99102000D4AA7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F3472391C99102000D4AA7B /* MMMarkdown.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MMMarkdown.framework;
+			remoteRef = 4F3472381C99102000D4AA7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F34723B1C99102000D4AA7B /* MMMarkdownTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MMMarkdownTests.xctest;
+			remoteRef = 4F34723A1C99102000D4AA7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4F13AA751C86EBC800DFFC79 /* Resources */ = {
@@ -172,6 +288,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F34723F1C99107000D4AA7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMMarkdown (iOS)";
+			targetProxy = 4F34723E1C99107000D4AA7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4F13AA831C86EBC800DFFC79 /* Main.storyboard */ = {

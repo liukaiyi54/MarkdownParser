@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4996CB7C2D68576640D191E06FD93FDA8E814F1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4996CB7C2D68576640D191E06FD93FDA8E814F1D" : 0,
+    "8E756A5F3B3088D21C2995D34B375B49B53EB485" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2E61988F-544E-4E2C-8E83-EC6914101BFD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4996CB7C2D68576640D191E06FD93FDA8E814F1D" : "MarkdownParser\/",
+    "8E756A5F3B3088D21C2995D34B375B49B53EB485" : "MarkdownParser\/MMMarkdown\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MarkdownParser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MarkdownParser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liukaiyi54\/MarkdownParser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4996CB7C2D68576640D191E06FD93FDA8E814F1D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mdiep\/MMMarkdown.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E756A5F3B3088D21C2995D34B375B49B53EB485"
+    }
+  ]
+}

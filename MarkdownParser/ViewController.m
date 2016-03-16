@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "OutputViewController.h"
 
-#import "MMMarkdown.h"
+#import <MMMarkdown/MMMarkdown.h>
 
 @interface ViewController ()
 @property (nonatomic, weak) IBOutlet UITextView *markdownEditor;
